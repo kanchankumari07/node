@@ -68,7 +68,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/movies', (req, res) => {
-  res.json(topmovies);
+  res.json(movies);
 });
 
 app.listen(8080, () => {
